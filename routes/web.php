@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/encuentro', function () {
     return view('encuentro');
 });
+
+Route::get('contacto', function () {
+    return view('contacto');
+});
+
+
