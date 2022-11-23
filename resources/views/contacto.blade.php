@@ -1,5 +1,5 @@
 @extends("layouts.master")
-@section("contacto")
+@section("content")
 
 
         <h3>Contact Me</h3>
