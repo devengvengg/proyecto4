@@ -25,4 +25,8 @@ Route::get('contacto', function () {
     return view('contacto');
 });
 
+Route::get('about', function () {
+    return view('about');
+});
+
 
