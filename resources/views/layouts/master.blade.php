@@ -27,7 +27,7 @@
 									<img src="images/banner.jpg" alt="" />
 								</div>
 								<div class="container">
-									@yield("contacto")
+                                    @yield("content")
 								</div>
 							</section>
 					</div>
