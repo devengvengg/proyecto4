@@ -9,7 +9,7 @@
     <nav id="nav">
         <ul>
             <li><a href="/about" class="active">About</a></li>
-            <li><a href="#two">Things I Can Do</a></li>
+            <li><a href="/things">Things I Can Do</a></li>
             <li><a href="/aFewAcc">A Few Accomplishments</a></li>
             <li><a href="/contacto">Contact</a></li>
         </ul>

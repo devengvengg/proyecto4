@@ -13,15 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('welcome');
 });
-
-Route::get('/encuentro', function () {
+// ---------------------- @ My code:
+Route::get('/encuentro', function() {
     return view('encuentro');
 });
-
-Route::get('contacto', function () {
+Route::get('/contacto', function() {
     return view('contacto');
 });
 
@@ -32,7 +31,10 @@ Route::get('aFewAcc', function () {
 
 Route::get('about', function () {
     return view('about');
-    
+
 });
 
 
+Route::get('/things', function() {
+    return view('things');
+});
